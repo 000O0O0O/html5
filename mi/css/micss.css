@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+*/
+}
+
+body {
+    margin: 0 auto;
+    font-size: 12px;
+    font-family: arial, "Hiragino Sans GB", "Microsoft YaHei", "微軟正黑體", "儷黑 Pro", sans-serif;
+    background: #eee;
+}
+
+.milogo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo_area {
+    height: 88px;
+}
+
+.mi_title {
+    font-size: 30px;
+}
+
+.place_holder {
+    margin: 0 auto;
+    height: 30px;
+    width: 332px;
+}
+
+.reg_box {
+    width: 332px;
+    height: 339px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input_tel {
+    width: 330px;
+    height: 42px;
+}
+
+.input_text {
+    text-align: left;
+    margin: 0 auto;
+    width: 190px;
+    height: 40px;
+    margin-left: -10px;
+}
+
+.input_box {
+    width: 330px;
+    height: 42px;
+    vertical-align: middle
+}
+
+.input_code {
+    margin-bottom: -16px;
+}
+
+.input_button {
+    width: 330px;
+    height: 42px;
+    background: #ff6700;
+    color: white;
+    font-size: 14px;
+}
+
+.oth_text {
+    color: #b0b0b0;
+}
+
+.oth_login {
+    /*    background: #757575;*/
+}
+
+a {
+    color: #757575;
+    text-decoration: none;
+}
+
+.talk_msg {
+    font-weight: bold;
+    text-align: left;
+}
+
+
+/*
+.qq:hover{
+    src: url(../img/qq2.png)
+}
+
+.weibo:hover{
+    src: url(../img/weibo2.png)
+}
+
+.zhifubao:hover{
+    src: url(../img/zhifubao2.png)
+}
+*/
+
+.img_login {
+    width: 30px;
+    height: 30px;
+}
+
+.out_link {
+    text-decoration: none;
+    color: #757575;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.link_holder {
+    margin: 0 auto;
+    text-align: center;
+    width: 160px;
+    height: 42px;
+    float: left;
+}
+
+/*注册页面提示信息*/
+.msg {
+    width: 330px;
+    font-size: 12px;
+    text-align: left;
+}
+
+/*底部备案信息等*/
+.boot_msg {
+    color: #bbb;
+    height: 40px;
+    /*居中*/
+    margin: 0 auto;
+    text-align: center;
+    /* 向下吸附 */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+
+/*登陆方块*/
+
+.square {
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 808px;
+    height: 606px;
+    background: white;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: -404px;
+    margin-top: -303px;
+}
